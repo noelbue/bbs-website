@@ -49,6 +49,18 @@ module.exports = {
                     nsSeparator: false
                 },
             }
-        }
+        },
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `Bürgler Business Solutions`,
+                short_name: `BBS`,
+                start_url: `/`,
+                background_color: `#0A192F`,
+                theme_color: `#60a190`,
+                display: `minimal-ui`,
+                icon: `static/favicon.png`,
+            },
+        },
     ],
 }

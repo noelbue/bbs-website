@@ -49,6 +49,14 @@
                     "SEO",
                     "Copywriting"
                 ]
+            },
+            {
+                "title": "Print Services",
+                "description": "In collaboration with our partner seitwärts, we offer comprehensive print solutions. From business cards to brochures, we ensure your brand maintains its visual excellence across all printed materials.",
+                "tags": [
+                    "PrintDesign",
+                    "Partnership"
+                ]
             }
         ]
     },
@@ -101,6 +109,14 @@
                 "tags": [
                     "SEO",
                     "Copywriting"
+                ]
+            },
+            {
+                "title": "Druckdienstleistungen",
+                "description": "In Zusammenarbeit mit unserem Partner seitwärts bieten wir umfassende Drucklösungen an. Von Visitenkarten bis hin zu Broschüren stellen wir sicher, dass Ihre Marke ihre visuelle Exzellenz in allen gedruckten Materialien beibehält.",
+                "tags": [
+                    "PrintDesign",
+                    "Partnership"
                 ]
             }
         ]
