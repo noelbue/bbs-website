@@ -1,0 +1,144 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--background);
+    z-index: 100;
+}
+
+.logo {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 1rem;
+    font-family: var(--font-mono);
+    transition: color 0.3s;
+}
+
+.menuNumber {
+    color: var(--primary);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+}
+
+.menuItem:hover {
+    color: var(--primary);
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.languageDivider {
+    color: var(--text);
+    opacity: 0.4;
+    font-family: var(--font-mono);
+    margin: 0 0.5rem;
+}
+
+.themeToggle {
+    transform: scale(0.85);
+}
+
+.menuButton {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.menuIcon {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: var(--text);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.menuIcon::before,
+.menuIcon::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background-color: var(--text);
+    transition: all 0.3s ease;
+}
+
+.menuIcon::before {
+    top: -8px;
+}
+
+.menuIcon::after {
+    bottom: -8px;
+}
+
+.menuOpen .menuIcon {
+    background-color: transparent;
+}
+
+.menuOpen .menuIcon::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.menuOpen .menuIcon::after {
+    transform: rotate(-45deg);
+    bottom: 0;
+}
+
+@media (max-width: 1024px) {
+    .menuButton {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .nav.menuOpen .menu {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: var(--background);
+        padding: var(--space-4);
+        gap: var(--space-3);
+    }
+
+    .nav {
+        padding: var(--space-2);
+    }
+}

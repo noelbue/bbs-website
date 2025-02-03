@@ -1,0 +1,32 @@
+.languageSwitcher {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.langButton {
+    background: none;
+    border: none;
+    color: var(--text);
+    opacity: 0.6;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    transition: all 0.3s ease;
+}
+
+.langButton:hover {
+    opacity: 1;
+}
+
+.langButton.active {
+    color: var(--primary);
+    opacity: 1;
+}
+
+.divider {
+    color: var(--text);
+    opacity: 0.4;
+    margin: 0 0.25rem;
+}

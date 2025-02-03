@@ -1,0 +1,62 @@
+{
+    "en": {
+        "logo": {
+            "dark": "/images/BBS-Logo-dark-mode.svg",
+            "light": "/images/BBS-Logo-light-mode.svg",
+            "alt": "Bürgler Business Solutions Logo",
+            "href": "/"
+        },
+        "menu": [
+            {
+                "title": "Services",
+                "href": "#services"
+            },
+            {
+                "title": "Process",
+                "href": "#process"
+            },
+            {
+                "title": "Projects",
+                "href": "#projects"
+            },
+            {
+                "title": "Partners",
+                "href": "#partners"
+            },
+            {
+                "title": "Contact",
+                "href": "#contact"
+            }
+        ]
+    },
+    "de": {
+        "logo": {
+            "dark": "/images/BBS-Logo-dark-mode.svg",
+            "light": "/images/BBS-Logo-light-mode.svg",
+            "alt": "Bürgler Business Solutions Logo",
+            "href": "/"
+        },
+        "menu": [
+            {
+                "title": "Dienstleistungen",
+                "href": "#services"
+            },
+            {
+                "title": "Prozess",
+                "href": "#process"
+            },
+            {
+                "title": "Projekte",
+                "href": "#projects"
+            },
+            {
+                "title": "Partner",
+                "href": "#partners"
+            },
+            {
+                "title": "Kontakt",
+                "href": "#contact"
+            }
+        ]
+    }
+}

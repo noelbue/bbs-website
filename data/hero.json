@@ -1,0 +1,18 @@
+{
+    "en": {
+        "welcome": "Welcome to our website, we're …",
+        "title": "Bürgler Business Solutions.",
+        "subtitle": "We build things for the web.",
+        "description": "Welcome to our digital world where creativity meets functionality. We specialize in transforming ideas into reality, creating unique, innovative web experiences that elevate your online presence.",
+        "cta": "Say Hello",
+        "ctaLink": "#contact"
+    },
+    "de": {
+        "welcome": "Willkommen auf unserer Website, wir sind …",
+        "title": "Bürgler Business Solutions.",
+        "subtitle": "Wir entwickeln Lösungen fürs Web.",
+        "description": "Willkommen in unserer digitalen Welt, wo Kreativität auf Funktionalität trifft. Wir sind spezialisiert darauf, Ideen in die Realität umzusetzen und einzigartige, innovative Web-Erfahrungen zu schaffen, die Ihre Online-Präsenz stärken.",
+        "cta": "Sag Hallo",
+        "ctaLink": "#contact"
+    }
+}

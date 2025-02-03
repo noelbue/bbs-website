@@ -1,0 +1,72 @@
+{
+    "en": {
+        "title": "Process",
+        "steps": [
+            {
+                "number": "01",
+                "title": "Initial Consultation",
+                "description": "Your journey with us begins with an initial consultation. We sit down and discuss your needs, goals, and vision to ensure we're the best fit for your project."
+            },
+            {
+                "number": "02",
+                "title": "Custom Proposal",
+                "description": "Based on our consultation, we craft a detailed proposal outlining the scope, timeline, and cost of your project."
+            },
+            {
+                "number": "03",
+                "title": "Prototype, Design & Development",
+                "description": "With your approval, we set the wheels in motion. We keep you updated at every stage to ensure we're in line with your expectations."
+            },
+            {
+                "number": "04",
+                "title": "Review & Revisions",
+                "description": "We value your input and believe in getting it right. Once the initial work is complete, we invite you to review and provide feedback."
+            },
+            {
+                "number": "05",
+                "title": "Final Delivery & Follow-Up",
+                "description": "Once all adjustments are made, it's time to reveal the final product. We follow up to ensure everything is running smoothly."
+            },
+            {
+                "number": "06",
+                "title": "Ongoing Support",
+                "description": "We're here for the long haul. We provide ongoing support tailored to your needs, whether that's website maintenance, SEO updates, or additional design work."
+            }
+        ]
+    },
+    "de": {
+        "title": "Prozess",
+        "steps": [
+            {
+                "number": "01",
+                "title": "Erstgespräch",
+                "description": "Ihre Reise mit uns beginnt mit einem Erstgespräch. Wir besprechen Ihre Bedürfnisse, Ziele und Vision, um sicherzustellen, dass wir der richtige Partner für Ihr Projekt sind."
+            },
+            {
+                "number": "02",
+                "title": "Individuelles Angebot",
+                "description": "Basierend auf unserem Gespräch erstellen wir ein detailliertes Angebot mit Umfang, Zeitplan und Kosten Ihres Projekts."
+            },
+            {
+                "number": "03",
+                "title": "Prototyp, Design & Entwicklung",
+                "description": "Nach Ihrer Zustimmung setzen wir die Räder in Bewegung. Wir halten Sie in jeder Phase auf dem Laufenden."
+            },
+            {
+                "number": "04",
+                "title": "Überprüfung & Anpassungen",
+                "description": "Wir schätzen Ihr Feedback. Nach Fertigstellung der ersten Arbeiten laden wir Sie zur Überprüfung ein."
+            },
+            {
+                "number": "05",
+                "title": "Finale Übergabe & Nachbesprechung",
+                "description": "Nach allen Anpassungen präsentieren wir das Endprodukt. Wir bleiben in Kontakt, um einen reibungslosen Betrieb sicherzustellen."
+            },
+            {
+                "number": "06",
+                "title": "Fortlaufende Unterstützung",
+                "description": "Wir sind langfristig für Sie da. Wir bieten kontinuierliche Unterstützung nach Ihren Bedürfnissen, sei es Wartung, SEO-Updates oder zusätzliche Designarbeiten."
+            }
+        ]
+    }
+}

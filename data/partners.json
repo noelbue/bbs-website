@@ -1,0 +1,24 @@
+{
+    "en": {
+        "title": "Partners",
+        "partners": [
+            {
+                "name": "Aspasia Frantzis",
+                "company": "seitwärts.ch",
+                "description": "Small full-service design studio in digital and analog.",
+                "link": "https://seitwaerts.ch"
+            }
+        ]
+    },
+    "de": {
+        "title": "Partner",
+        "partners": [
+            {
+                "name": "Aspasia Frantzis",
+                "company": "seitwärts.ch",
+                "description": "Kleines Full-Service Designstudio im Digitalen und Analogen.",
+                "link": "https://seitwaerts.ch"
+            }
+        ]
+    }
+}
