@@ -12,8 +12,8 @@
         },
         "links": [
             {
-                "title": "Privacy Policy",
-                "href": "/privacy"
+                "title": "",
+                "href": ""
             }
         ]
     },
@@ -30,8 +30,8 @@
         },
         "links": [
             {
-                "title": "Datenschutz",
-                "href": "/datenschutz"
+                "title": "",
+                "href": ""
             }
         ]
     }

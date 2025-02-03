@@ -10,11 +10,13 @@ const Contact = () => {
       contactJson {
         en {
           title
+          heading
           description
           cta
         }
         de {
           title
+          heading
           description
           cta
         }
@@ -33,12 +35,12 @@ const Contact = () => {
                 </h2>
             </div>
             <div className={styles.content}>
-                <h3 className={styles.mainTitle}>Get in Touch</h3>
+                <h3 className={styles.mainTitle}>{contactData.heading}</h3>
                 <p className={styles.description}>
                     {contactData.description}
                 </p>
                 <a
-                    href="mailto:contact@b-business-solutions.ch"
+                    href="mailto:nb@b-business-solutions.ch"
                     className={styles.ctaButton}
                 >
                     {contactData.cta}

@@ -60,6 +60,8 @@ exports.createSchemaCustomization = ({ actions }) => {
     type ProjectLinks {
       live: String
       website: String
+      oldtitle: String
+      newtitle: String
       old: String
       new: String
     }
@@ -85,6 +87,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type ContactContent {
       title: String
+      heading: String
       description: String
       cta: String
     }

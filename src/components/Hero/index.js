@@ -41,16 +41,6 @@ const Hero = () => {
                     {heroData.cta}
                 </a>
             </div>
-            <div className={styles.backgroundLines}>
-                {/* SVG for the angled lines */}
-                <svg viewBox="0 0 400 400" className={styles.lines}>
-                    <path d="M0 400 L400 0" stroke="currentColor" strokeWidth="0.5" fill="none" opacity="0.1" />
-                    <path d="M50 400 L400 50" stroke="currentColor" strokeWidth="0.5" fill="none" opacity="0.1" />
-                    <path d="M100 400 L400 100" stroke="currentColor" strokeWidth="0.5" fill="none" opacity="0.1" />
-                    <path d="M150 400 L400 150" stroke="currentColor" strokeWidth="0.5" fill="none" opacity="0.1" />
-                    <path d="M200 400 L400 200" stroke="currentColor" strokeWidth="0.5" fill="none" opacity="0.1" />
-                </svg>
-            </div>
         </section>
     )
 }

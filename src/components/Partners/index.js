@@ -45,7 +45,7 @@ const Partners = () => {
                     <div key={index} className={styles.partnerCard}>
                         <h3 className={styles.partnerName}>{partner.name}</h3>
                         <a href={partner.link} className={styles.partnerCompany}>
-                            @ {partner.company}
+                            @{partner.company}
                         </a>
                         <p className={styles.partnerDescription}>
                             {partner.description}

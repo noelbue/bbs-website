@@ -20,6 +20,8 @@
     color: var(--primary);
     font-family: var(--font-mono);
     font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.15rem;
 }
 
 .partnersGrid {

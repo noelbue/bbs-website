@@ -7,6 +7,9 @@ import LanguageSwitcher from '../LanguageSwitcher'
 import { ThemeContext } from '../../context/ThemeContext'
 
 const Navigation = () => {
+  const handleLinkClick = () => {
+    setIsMenuOpen(false);
+  };
   const { language } = useI18next()
   const { isDarkMode } = React.useContext(ThemeContext)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -63,6 +66,7 @@ const Navigation = () => {
             key={item.href}
             href={item.href}
             className={styles.menuItem}
+            onClick={handleLinkClick}
           >
             <span className={styles.menuNumber}>
               {String(index + 1).padStart(2, '0')}.

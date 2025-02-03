@@ -30,8 +30,8 @@
             },
             {
                 "title": "Corporate Website Redesign",
-                "client": "Solar Energy Client",
-                "description": "We collaborated with seitwärts to redesign a solar energy website. They provided the captivating design, while we handled the development using WordPress. Our goal was to create a visually appealing and user-friendly website that effectively showcased the client's solar energy solutions.",
+                "client": "Ammann Solar AG",
+                "description": "We collaborated with seitwärts to redesign a solar energy website for Ammann Solar AG. They provided the captivating design, while we handled the development using WordPress. Our goal was to create a visually appealing and user-friendly website that effectively showcased the client's solar energy solutions.",
                 "technologies": [
                     "WordPress",
                     "PHP",
@@ -39,8 +39,10 @@
                     "CSS"
                 ],
                 "links": {
-                    "old": "https://old-website.ch",
-                    "new": "https://new-website.ch"
+                    "oldtitle": "Old Website",
+                    "newtitle": "New Website",
+                    "old": "https://web.archive.org/web/20230402115855/https://ammann-solar-ag.ch/",
+                    "new": "https://ammann-solar-ag.ch/"
                 }
             },
             {
@@ -54,7 +56,7 @@
                     "CSS"
                 ],
                 "links": {
-                    "live": "https://viktoryia-website.ch"
+                    "live": "https://vikavoronchuk.com"
                 }
             }
         ]
@@ -90,8 +92,8 @@
             },
             {
                 "title": "Unternehmenswebsite Redesign",
-                "client": "Solar Energy Client",
-                "description": "Wir haben mit seitwärts zusammengearbeitet, um eine Solar-Energy-Website neu zu gestalten. Sie lieferten das fesselnde Design, während wir die Entwicklung mit WordPress übernahmen. Unser Ziel war es, eine visuell ansprechende und benutzerfreundliche Website zu erstellen, die die Solarenergielösungen des Kunden effektiv präsentiert.",
+                "client": "Ammann Solar AG",
+                "description": "Wir haben mit seitwärts zusammengearbeitet, um die Webseite von Ammann Solar AG neu zu gestalten. Sie lieferten das fesselnde Design, während wir die Entwicklung mit WordPress übernahmen. Unser Ziel war es, eine visuell ansprechende und benutzerfreundliche Website zu erstellen, die die Solarenergielösungen des Kunden effektiv präsentiert.",
                 "technologies": [
                     "WordPress",
                     "PHP",
@@ -99,8 +101,10 @@
                     "CSS"
                 ],
                 "links": {
-                    "old": "https://old-website.ch",
-                    "new": "https://new-website.ch"
+                    "oldtitle": "Alte Webseite",
+                    "newtitle": "Neue Webseite",
+                    "old": "https://web.archive.org/web/20230402115855/https://ammann-solar-ag.ch/",
+                    "new": "https://ammann-solar-ag.ch/"
                 }
             },
             {
@@ -114,7 +118,7 @@
                     "CSS"
                 ],
                 "links": {
-                    "live": "https://viktoryia-website.ch"
+                    "live": "https://vikavoronchuk.com"
                 }
             }
         ]
