@@ -11,12 +11,6 @@ This website serves as the digital presence for Bürgler Business Solutions, sho
 - CSS Modules: For component-scoped styling
 - [i18next](https://www.i18next.com/): For internationalization
 
-## 🚀 Deployment
-- Continuous Deployment via [Netlify](https://www.netlify.com/)
-- Automatic builds on push to main branch
-- Preview deployments for pull requests
-- Custom domain with SSL
-
 ## ✨ Features
 - Responsive design
 - Dark/Light mode toggle
@@ -26,6 +20,14 @@ This website serves as the digital presence for Bürgler Business Solutions, sho
 - Modern design system with CSS variables
 - SEO optimized
 - Performance optimized
+
+## 🚀 Deployment
+- Continuous Deployment via [Netlify](https://www.netlify.com/)
+- Automatic builds on push to main branch
+- Preview deployments for pull requests
+- Custom domain with SSL
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2e91ca07-ddb8-4340-88df-6cb319a3f44c/deploy-status)](https://app.netlify.com/sites/b-business-solutions/deploys)
 
 ## 🏗 Project Structure
 ```
