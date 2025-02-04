@@ -9,7 +9,7 @@
   --primary-dark: #5DFDCB;
   --primary-light: #60a190;
   --primary: var(--primary-dark);
-  --background: #0A192F;
+  --background: #0F182B;
   --box-background: #14213E;
   --text: #CCD6F6;
   --text-rgb: 204, 214, 246;
@@ -56,7 +56,7 @@
 
 .dark-mode {
   --primary: var(--primary-dark);
-  --background: #0A192F;
+  --background: #0F182B;
   --box-background: #14213E;
   --text: #CCD6F6;
   --text-rgb: 204, 214, 246;

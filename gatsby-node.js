@@ -58,8 +58,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       links: ProjectLinks
     }
     type ProjectLinks {
-      live: String
       website: String
+      websitetitle: String
       oldtitle: String
       newtitle: String
       old: String
@@ -133,6 +133,19 @@ exports.createSchemaCustomization = ({ actions }) => {
   type FooterLinkContent {
     title: String
     href: String
+  }
+  type HeroAnimationJson implements Node @dontInfer {
+    v: String
+    fr: Int
+    ip: Int
+    op: Int
+    w: Int
+    h: Int
+    nm: String
+    ddd: Int
+    assets: [JSON]
+    layers: [JSON]
+    meta: JSON
   } 
   `;
   createTypes(typeDefs);

@@ -1,4 +1,3 @@
-// src/components/Footer/index.js
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { useI18next } from 'gatsby-plugin-react-i18next'

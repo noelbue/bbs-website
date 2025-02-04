@@ -15,17 +15,14 @@ const ProjectCard = ({ title, client, description, technologies, links }) => (
                 ))}
             </div>
             <div className={styles.links}>
-                {links.live && (
-                    <a href={links.live} target="_blank" rel="noreferrer" className={styles.link}>Visit Website</a>
-                )}
                 {links.website && (
-                    <a href={links.website} target="_blank" rel="noreferrer" className={styles.link}>Visit Website</a>
+                    <a href={links.website} target="_blank" rel="noreferrer" className={styles.link}>{links.websitetitle}</a>
                 )}
                 {links.old && (
-                    <a href={links.old} target="_blank" rel="noreferrer" className={styles.link}>Visit Old Website</a>
+                    <a href={links.old} target="_blank" rel="noreferrer" className={styles.link}>{links.oldtitle}</a>
                 )}
                 {links.new && (
-                    <a href={links.new} target="_blank" rel="noreferrer" className={styles.link}>Visit New Website</a>
+                    <a href={links.new} target="_blank" rel="noreferrer" className={styles.link}>{links.newtitle}</a>
                 )}
             </div>
         </div>
@@ -45,8 +42,8 @@ const Projects = () => {
             description
             technologies
             links {
-              live
               website
+              websitetitle
               oldtitle
               newtitle
               old
@@ -62,8 +59,8 @@ const Projects = () => {
             description
             technologies
             links {
-              live
               website
+              websitetitle
               oldtitle
               newtitle
               old
